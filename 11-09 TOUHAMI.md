@@ -1,7 +1,7 @@
 # Mauvaise Data Viz 
 
 
-## Fichier n1
+## Fichier n*1
 
 <img width="742" height="412" alt="image" src="https://github.com/user-attachments/assets/c6849812-efa3-4927-8b48-d7108c1c6ce2" />
 
