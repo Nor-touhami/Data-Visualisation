@@ -1,10 +1,9 @@
-
 # Mauvaise Data Viz 
 
 
 ## Fichier n1
 
-![[Pasted image 20260911121436.png]]
+<img width="742" height="412" alt="image" src="https://github.com/user-attachments/assets/c6849812-efa3-4927-8b48-d7108c1c6ce2" />
 
 Erreur : Utilisation de cylindres en 3D avec une perspective trompeuse qui fausse totalement l'échelle, faisant paraître le cylindre de Maduro gigantesque alors que l'écart réel n'est que de 1,6 %.
 
@@ -12,7 +11,8 @@ Erreur : Utilisation de cylindres en 3D avec une perspective trompeuse qui fauss
 
 ## Fichier n*2
 
-![[Pasted image 20260911121647.png]]
+<img width="737" height="405" alt="image" src="https://github.com/user-attachments/assets/5eb39167-5607-45a2-930d-64d39817c3dd" />
+
 Erreur : Utilisation d'un diagramme circulaire (camembert) pour représenter des données temporelles indépendantes dont la somme dépasse 100 % ($51\% + 43\% + 34\% = 128\%$), ce qui n'a aucun sens mathématique.
 
 À corriger : Utiliser un graphique en barres ou en courbes pour comparer l'évolution de ce pourcentage au fil du temps.
@@ -20,8 +20,7 @@ Erreur : Utilisation d'un diagramme circulaire (camembert) pour représenter des
 
 ## Fichier n*3
 
-![[Pasted image 20260911121906.png]]
-
+<img width="851" height="817" alt="image" src="https://github.com/user-attachments/assets/de4617f1-e8f9-4447-a05f-9c917ad85355" />
 
 Erreur : Les barres ne respectent pas du tout l'échelle proportionnelle des valeurs (par exemple, la barre de 2023 avec 6 points est presque aussi longue que celle de 2020 avec 18 points, et la barre de 2021 avec 28 points est visuellement très proche de celle de 2019 avec 36 points).
 
