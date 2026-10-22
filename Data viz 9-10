@@ -1,0 +1,44 @@
+
+
+##### Voici un dashboard sous **R Shiny**, permettant d'analyser et de visualiser des données conçu pour explorer l'industrie mondiale du jeu vidéo à partir du dataset historique `vgsales.csv`. Il permet de transformer des milliers de lignes de données brutes en indicateurs visuels clairs, dynamiques et exploitables pour comprendre les grandes dynamiques du marché.
+
+###### *Comme je n'ai pas réussi a publier le dashboard je vais vous le presenter avec des captures d'écran*
+
+
+### Page d'Accueil
+<img width="1887" height="956" alt="image" src="https://github.com/user-attachments/assets/95f46318-afb3-4b46-a9df-4cb90b9afbb8" />
+
+### Les 5 Onglets Cles
+1. **Vue Globale & Tendances**
+- **Role :** Offrir une vue macroeconomique (ventes globales cumulees, top editeur) et historique (pic de l'industrie en 2008, Top 10 mondial des jeux).
+2. **Analyse par Plateforme**
+- **Role :** Comparer les performances des consoles (PlayStation, Xbox, Nintendo, PC) et leur repartition geographique (NA, EU, JP).
+3. **Genres & Marchés**
+- **Role :** Identifier les genres les plus rentables (Action, Sports, etc.) et analyser les preferences culturelles selon les regions du monde.
+4. **Fiche Jeu & Recherche**
+- **Role :** Permettre une interrogation ciblee via un moteur de recherche pour auditer un jeu specifique et ses ventes regionales.
+5. **Tableau Brut**
+- **Role :** Explorer la base de donnees ligne par ligne grace a un tableau interactif filtrable, triable et exportable.
+
+### Barre Latérale : Les Filtres Globaux
+Situés sur la gauche de l'interface, ces filtres agissent simultanément sur l'ensemble des onglets et réactualisent tous les graphiques et messages en temps réel :
+- **Filtre par Genre :** Permet de cibler un genre spécifique (Action, Sports, Role-Playing, etc.) ou de conserver une vue d'ensemble ("Tous").
+- **Filtre par Plateforme :** Permet d'isoler une console particulière (PS3, X360, Wii, PC, etc.) ou d'analyser l'ensemble des supports ("Toutes").
+- **Filtre par Période (Années) :** Un curseur temporel ajustable (de 1980 à 2020) pour restreindre l'analyse à une décennie ou une époque précise.
+
+## Onglet 2: Analyse par Plateforme
+
+<img width="1917" height="861" alt="image" src="https://github.com/user-attachments/assets/74709011-6b1b-491d-8661-dd3dc9ee62c5" />
+Permet de comparer les performances commerciales des différentes consoles de jeux vidéo et d'analyser leur ancrage géographique. Il présente un bilan global identifiant la console leader du marché, un diagramme en barres classant les supports les plus vendus, ainsi qu'un graphique en barres empilées détaillant la répartition des ventes par région pour chaque plateforme.
+
+## Onglet 3: Genres et Marchés
+<img width="1912" height="866" alt="image" src="https://github.com/user-attachments/assets/f4758e18-41bd-4ee1-8682-2e9b8677b41d" />
+Permet d'analyser la rentabilité des différents genres de jeux vidéo et de comparer les préférences de consommation selon les régions du monde. Il présente un diagramme en barres classant les genres selon leur volume de ventes global, ainsi qu'un graphique croisé comparant en détail les performances régionales (Amérique du Nord, Europe, Japon et autres) pour chaque catégorie.
+
+## Onglet 4: Fiche Jeu & Recherche
+<img width="1917" height="847" alt="image" src="https://github.com/user-attachments/assets/77d7f834-2869-4445-8885-ecb15c07e57a" />
+Permet d'analyser la rentabilité des différents genres de jeux vidéo et de comparer les préférences de consommation selon les régions du monde. Il présente un diagramme en barres classant les genres selon leur volume de ventes global, ainsi qu'un graphique croisé comparant en détail les performances régionales (Amérique du Nord, Europe, Japon et autres) pour chaque catégorie.
+
+## Onglet 5: Tableau Brut
+<img width="1917" height="927" alt="image" src="https://github.com/user-attachments/assets/8a25353d-81e5-4c25-a501-821c97d9642e" />
+Permet une exploration granulaire et complète de l'ensemble des données du projet. Il présente un tableau tabulaire interactif mis à jour en temps réel selon les filtres globaux, muni d'outils de recherche textuelle, de filtres par colonne, de options de tri et d'une pagination pour analyser l'intégralité du dataset ligne par ligne.
