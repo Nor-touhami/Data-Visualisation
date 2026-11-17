@@ -11,21 +11,24 @@ L'étude porte sur les accidents corporels de la circulation enregistrés en **2
 | **`caract-2025.csv`** | Caractéristiques | Filtrage sur le département `75`, conversion des coordonnées GPS (`lat`, `long`) en format numérique décimal (remplacement de `,` par `.`) et suppression des valeurs aberrantes. |
 | **`2025.csv`** | Véhicules | Jointure interne via l'identifiant unique `Num_Acc` et regroupement des 35 codes administratifs BAAC en 7 catégories lisibles (6 catégories principales + _Autres_). |
 
-![Environnement VS Code](images/vscode_workflow.png)  
+<img width="1617" height="920" alt="vscode_workflow" src="https://github.com/user-attachments/assets/001866e9-0296-4466-acc3-74f3995a8032" />
+
 _Figure 1 — Environnement VS Code : script, jeux de données sources et fichiers générés._
 
 ## 2. Visualisation 1 : Répartition géographique des accidents
 
 Le script génère une carte interactive (`carte_accidents_2025.html`) centrée sur Paris utilisant le fond cartographique libre **OpenStreetMap** et le regroupement dynamique des points (`MarkerCluster`).
 
-![Carte interactive des accidents à Paris](images/carte_accidents_2025.png)  
+<img width="1330" height="582" alt="carte_accidents_2025" src="https://github.com/user-attachments/assets/cf5c9f15-271e-424d-a54d-bdcc0954c356" />
+
 _Figure 2 — Répartition géographique des accidents corporels à Paris en 2025 avec agrégation par clusters (Majorité des accidents au centre de Paris)._
 
 ## 3. Visualisation 2 : Véhicules impliqués par catégorie
 
 La seconde visualisation (`graphique_vehicules_2025.png`) compare le volume et la part relative de chaque type de véhicule impliqué dans un accident corporel à Paris en 2025.
 
-![Graphique des véhicules impliqués](images/graphique_vehicules_2025_1.png)  
+<img width="1587" height="857" alt="graphique_vehicules_2025" src="https://github.com/user-attachments/assets/14c47cff-60c9-4eec-a9de-ce22d1fb3ab5" />
+
 _Figure 3 — Répartition des 6 302 véhicules impliqués dans un accident corporel à Paris en 2025 (effectifs et pourcentages), avec une majorité de Voitures._
 
 ## 4. Règles de lisibilité appliquées
